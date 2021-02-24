@@ -1,0 +1,16 @@
+/*https://colorhunt.co/palette/252807*/
+body {
+  background-color: #f6f5f5;
+}
+
+h1, h2, h3 {
+  color: #276678;
+}
+
+hr {
+  border-color: #d3e0ea;
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 5px;
+  width: 10%;
+}
