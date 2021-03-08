@@ -1,16 +1,126 @@
-/*https://colorhunt.co/palette/252807*/
+/* Color Pallete   https://colorhunt.co/palette/252807  */
+/* Tags */
+a {
+  color: #1687a7;
+  text-decoration: none;
+}
+a:hover {
+  color: #d3e0ea;
+}
+
 body {
-  background-color: #f6f5f5;
+  margin: 0;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
 }
 
-h1, h2, h3 {
+h1 {
   color: #276678;
+  font-family: 'Literata', serif;
+  font-size: 5.625rem;
+  margin: 2.5rem auto 0 auto;
+  padding-bottom: 10px;
 }
 
-hr {
+h2 {
+  color: #276678;
+  font-family: 'Roboto', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+}
+
+h3 {
+  color: #1687a7;
+  font-family: 'Rubik', sans-serif;
+}
+
+hr{
   border-color: #d3e0ea;
   border-style: none;
   border-top-style: dotted;
   border-width: 5px;
   width: 10%;
+  margin: 100px auto 100px auto;
 }
+
+p {
+  font-family: 'Rubik', sans-serif;
+  line-height: 2;
+}
+
+/* Classes */
+.baseball-card{
+  display: none;
+}
+
+.bottom-container {
+  background-color: #276678;
+  color: #d3e0ea;
+  padding-top: 50px;
+}
+
+.cloud-bottom {
+  position: absolute;
+  right: 25%;
+  bottom: 300px;
+}
+
+.cloud-top {
+  position: absolute;
+  left: 20%;
+  top: 50px;
+}
+
+.copyright {
+  color:#1687a7;
+  font-size: .75rem;
+}
+
+.credits {
+  color: #1687a7;
+}
+
+.footer-link{
+  margin: 50px 10px 30px;
+  padding-bottom: 30px;
+}
+
+.intro{
+  width: 40%;
+  margin: auto;
+}
+
+.middle-container {
+  margin: 100px 0;
+}
+
+.mountain{
+  position: relative;
+
+}
+
+.pigeon {
+  position: absolute;
+  right: 20%;
+}
+
+.skill-image{
+  float: left;
+  margin-right: 30px;
+  width: 20%;
+}
+
+.skill-row {
+  display: inline-block;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  width: 50%;
+}
+
+.top-container {
+  background-color: #d3e0ea;
+  position: relative;
+  padding-top: 100px;
+}
+
+/* IDs */

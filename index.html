@@ -3,99 +3,67 @@
 
 <head>
   <meta charset="utf-8">
-  <meta name="description" content="Jake McLelland is a software developer.">
-  <title>Jake's Personal Site</title>
+  <title>Jake McLelland</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Literata&family=Roboto&family=Rubik&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="images/favicon.ico">
 </head>
 
 <body>
-  <table cellspacing="20px">
-    <tr>
-      <td><img src="images/jake_200_x_200.png" alt="Jake profile picture Software Developer" width="200" height="200"></td>
-      <td>
-        <h1>Jake McLelland</h1>
-        <p>
-          <em>Software Developer at <a href="https://www.codepoetllc.com/">CodePoet LLC</a></em>
-        </p>
-        <p>
-          I began coding on a Commodore 64, a console that required complex commands just to play a game on the family TV. My first paid programming job was migrating FoxPro programs into C#. I moved on to develop many Microsoft .NET web services in C# and SQL Server for banking, printing, transportation and healthcare clients. Being a team player, I've often been an Agile facilitator, technical trainer and code reviewer. I specialize in system-to-system integrations, such as linking external web APIs to back-end mainframes. After hours, I'm an avid orchid rehabilitator and bonsai enthusiast.
-        </p>
-      </td>
-    </tr>
-  </table>
-  <hr>
-  <h1>Experience</h1>
-  <table cellspacing="10px">
-    <thead>
-      <tr>
-        <th>Date</th>
-        <th>Work</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>June 2019 - Present</td>
-        <td>
-          <strong>Software Developer at CodePoet LLC</strong>
-          <br>
-          
-          <ul>
-            <li>Developed web API using C#, .NET Core, EntityFramework Core tied to an Azure SQL Database.</li>
-            <li>Build and maintain SSIS recurring jobs to sync data between back-end mainframe and Azure SQL Database. </li>
-            <li>Contributor to ASP.Net administrative website built with MVC and Razor.</li>
-          </ul>
-          
-        </td>
-      </tr>
-    </tbody>
-  </table>
-  <hr>
-  <h1>Skills</h1>
-  <table cellspacing="10px">
-    <tbody>
-      <tr>
-        <td>
-          <table>
-            <tbody>
-              <tr>
-                <td>C#</td>
-                <td>★★★★★</td>
-              </tr>
-              <tr>
-                <td>SQL Server</td>
-                <td>★★★★★</td>
-              </tr>
-              <tr>
-                <td>SSIS</td>
-                <td>★★★★★</td>
-              </tr>
-            </tbody>
-          </table>
-        </td>
-        <td>
-          <table>
-            <tbody>
-              <tr>
-                <td>Web Services</td>
-                <td>★★★★★</td>
-              </tr>
-              <tr>
-                <td>ASP .Net</td>
-                <td>★★★☆☆</td>
-              </tr>
-              <tr>
-                <td>Javascript</td>
-                <td>★★☆☆☆</td>
-              </tr>
-            </tbody>
-          </table>
-        </td>
-      </tr>
-    </tbody>
-  </table>
-  <hr>
-  <p><a href="hobbies.html">My Hobbies</a></p>
-  <p><a href="contact-me.html">Contact Me</a></p>
+  <div class="top-container">
+    <img class="cloud-top" src="images/cloud.png" alt="cloud image">
+    <h1>I'm Jake</h1>
+    <h2>a programmer</h2>
+    <img class="cloud-bottom" src="images/cloud.png" alt="cloud image">
+    <img class="mountain" src="images/buildings.png" alt="cloud image">
+  </div>
+
+  <div class="middle-container">
+    <div class="profile">
+      <img src="images/jake_200_x_200.png" alt="Jake's profile image">
+      <h2>Hello.</h2>
+      <p class="intro">It wasn't long ago that a great way to send data to someone was to attach a small note to the leg 
+        to a carrier pigeon. Fortunately, these days, we don’t need to employ millions of pigeons in order to sync a 
+        single table between two database systems. Now all those pigeons are free to retire to their big city 
+        havens to snag tasty morsels from unsuspecting pedestrians. </p>
+    </div>
+    <hr>
+    <div class="skills">
+      <h2>My Skills.</h2>
+      <div class="skill-row">
+        <img class="skill-image" src="images/pigeon-128.png" alt="pigeon image">
+        <h3>System to system integration</h3>
+        <p>Moving data between systems isn't easy. You need a good server, a sensible Web API, and perhaps 
+          some HangFire jobs or SQL Server Integration Services jobs running in the background. Carrier 
+          pigeons not included.</p>
+      </div>
+      <div id="servers" class="baseball-card">
+        <p>I usually work with windows based servers. IIS can be tricky to configure, but it's pretty effective. 
+          Azure web servers are the way to go.</p>
+      </div>
+      <div id="apis" class="baseball-card">
+        <p>I like Azure Service Fabric services because they make it easy to scale your business logic in step 
+          with scaling your business.</p>
+      </div>
+      <div class="skill-row">
+        <img class="skill-image" src="images/coding.png" alt="programmer image">
+        <h3>Software development</h3>
+        <p>Modern software development is both an art, and a badge of determination. Just because the end user 
+          doesn't see the code doesn't mean it can be ugly. There is a fine balance between development velocity, 
+          syntactic elegance, and highly performant code.</p>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="bottom-container">
+    <a class="footer-link" href="https://www.linkedin.com/in/jakemclelland/">LinkedIn</a>
+    <a class="footer-link" href="https://www.codepoetllc.com/">CodePoet LLC</a>
+    <p class="credits">Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></p>
+    <p class="copyright">© 2021 Jake McLelland.</p>
+  </div>
+
 </body>
 
 </html>
