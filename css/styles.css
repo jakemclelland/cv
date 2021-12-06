@@ -12,6 +12,7 @@ body {
   margin: 0;
   text-align: center;
   font-family: 'Roboto', sans-serif;
+  font-size: 1.625rem;
 }
 
 h1 {
@@ -48,6 +49,12 @@ p {
   line-height: 2;
 }
 
+samp{
+  color: #276678;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
 /* Classes */
 .baseball-card{
   display: none;
@@ -80,14 +87,29 @@ p {
   color: #1687a7;
 }
 
+.flex-container {
+  display: flex;
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+.flex-child {
+  flex: 1;
+}
+
 .footer-link{
   margin: 50px 10px 30px;
   padding-bottom: 30px;
 }
 
 .intro{
-  width: 40%;
+  width: 90%;
+  text-align: left;
   margin: auto;
+}
+
+.light-blue {
+  background-color: #d3e0ea;
 }
 
 .middle-container {
@@ -96,12 +118,22 @@ p {
 
 .mountain{
   position: relative;
+}
 
+.picture-column{
+  margin: auto;
+  min-width: 50rem;
 }
 
 .pigeon {
   position: absolute;
   right: 20%;
+}
+
+.profile-column{
+  margin: auto;
+  min-width: 30rem;
+  max-width: 30rem;
 }
 
 .skill-image{
@@ -115,12 +147,6 @@ p {
   margin: 100px auto 100px auto;
   text-align: left;
   width: 50%;
-}
-
-.top-container {
-  background-color: #d3e0ea;
-  position: relative;
-  padding-top: 100px;
 }
 
 /* IDs */
