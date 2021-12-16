@@ -1,11 +1,11 @@
 /* Color Pallete   https://colorhunt.co/palette/252807  */
 /* Tags */
 a {
-  color: #1687a7;
+  color: #6667AB;
   text-decoration: none;
 }
 a:hover {
-  color: #d3e0ea;
+  color: #81839A;
 }
 
 body {
@@ -16,7 +16,7 @@ body {
 }
 
 h1 {
-  color: #276678;
+  color: #6667AB;
   font-family: 'Literata', serif;
   font-size: 5.625rem;
   margin: 2.5rem auto 0 auto;
@@ -24,19 +24,19 @@ h1 {
 }
 
 h2 {
-  color: #276678;
+  color: #6667AB;
   font-family: 'Roboto', sans-serif;
   font-size: 2.5rem;
   font-weight: normal;
 }
 
 h3 {
-  color: #1687a7;
+  color: #6667AB;
   font-family: 'Rubik', sans-serif;
 }
 
 hr{
-  border-color: #d3e0ea;
+  border-color: #27293D;
   border-style: none;
   border-top-style: dotted;
   border-width: 5px;
@@ -50,7 +50,7 @@ p {
 }
 
 samp{
-  color: #276678;
+  color: #6667AB;
   font-size: 2rem;
   font-weight: bold;
 }
@@ -61,8 +61,8 @@ samp{
 }
 
 .bottom-container {
-  background-color: #276678;
-  color: #d3e0ea;
+  background-color: #27293d;
+  color: #CFDCE8;
   padding-top: 50px;
 }
 
@@ -79,12 +79,12 @@ samp{
 }
 
 .copyright {
-  color:#1687a7;
+  color:#CFDCE8;
   font-size: .75rem;
 }
 
 .credits {
-  color: #1687a7;
+  color: #CFDCE8;
 }
 
 .flex-container {
@@ -109,7 +109,7 @@ samp{
 }
 
 .light-blue {
-  background-color: #d3e0ea;
+  background-color: #CFDCE8;
 }
 
 .middle-container {
@@ -149,4 +149,36 @@ samp{
   width: 50%;
 }
 
+/* Colors */
+.ancient-water{
+  color: #CFDCE8;
+}
+
+.ancient-water-back{
+  background-color: #CFDCE8;
+}
+
+.meritime-blue{
+  color: #27293d;
+}
+
+.meritime-blue-back{
+  background-color: #27293d;
+}
+
+.silver-bullet{
+  color: #81839A;
+}
+
+.silver-bullet-back{
+  background-color: #81839A;
+}
+
+.very-peri{
+  color: #6667AB;
+}
+
+.very-peri-back{
+  background-color: #6667AB;
+}
 /* IDs */
