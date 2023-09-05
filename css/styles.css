@@ -181,4 +181,25 @@ samp{
 .very-peri-back{
   background-color: #6667AB;
 }
+
+.viva-magenta{
+  color: #BB2649;
+}
+
+.viva-magenta-back{
+  background-color: #BB2649;
+}
+
+/* Style the span to look like a link */
+span.modal-link {
+  color: #6667AB;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+/* Change the color when hovering over the span */
+span.modal-link:hover {
+  color: #BB2649;
+}
+
 /* IDs */
