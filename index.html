@@ -42,7 +42,7 @@
       <div class="skill-row">
         <img class="skill-image" src="images/pigeon-128.png" alt="pigeon image">
         <h3>System to system integration</h3>
-        <p>Moving data between systems isn't easy. You need a good server, a sensible <span class="modal-link" hx-get="/apis.html" hx-trigger="click" hx-target="#modal">API</span>, and perhaps
+        <p>Moving data between systems isn't easy. You need a good server, a sensible <span class="modal-link" hx-get="/cv/apis.html" hx-trigger="click" hx-target="#modal">API</span>, and perhaps
           some HangFire jobs or SQL Server Integration Services jobs running in the background. Carrier
           pigeons not included.</p>
       </div>
@@ -69,7 +69,6 @@
       <div id="modal-content-inner"></div>
     </div>
   </div>
-  
 
   <div class="bottom-container">
     <a class="footer-link" href="https://www.linkedin.com/in/jakemclelland/">LinkedIn</a>
@@ -82,6 +81,11 @@
   <!--add some javascript-->
   <script>
     document.addEventListener("DOMContentLoaded", function () {
+
+      var currentYear = new Date().getFullYear();
+      var copyrightElement = document.getElementById('copy-date');
+      copyrightElement.textContent = currentYear;
+
       htmx.on("htmx:afterRequest", function(evt) {
         if (evt.detail.target.id === "modal-content-inner") {
           // Content has been loaded, show the modal
