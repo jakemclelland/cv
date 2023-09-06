@@ -149,6 +149,10 @@ samp{
   width: 50%;
 }
 
+.intro p {
+  padding-left: 2rem;
+}
+
 /* Colors */
 .ancient-water{
   color: #CFDCE8;
@@ -202,5 +206,45 @@ span.modal-link:hover {
   color: #BB2649;
 }
 
+.modal-close{
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  color: #6667AB;
+}
 
+.modal-close:hover{
+  color: #BB2649;
+  animation-name: rotate;
+  animation-duration: 1s;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(-0.5turn);
+  }
+}
+
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%;
+  height: 85%;
+  background-color: white;
+  border-radius: 5px;
+  border-top: 1px groove #6667AB;
+  border-left: 1px groove #6667AB;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
+  z-index: 1000;
+  display: none;
+}
+
+.modal-content {
+  padding: 2rem;
+}
 /* IDs */
